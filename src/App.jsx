@@ -98,7 +98,7 @@ function App() {
 
   <h1 className="card-title">🎉 廣三活動專屬｜樂園體驗券免費領</h1>
 <img
-    src="/public/images/ride-banner.png"
+    src={`${import.meta.env.BASE_URL}images/ride-banner.png`}
     alt="旋轉木馬與碰碰車體驗"
     style={{
       width: '100%',
